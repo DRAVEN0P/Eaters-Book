@@ -39,19 +39,19 @@ class RegisterPage extends StatelessWidget {
                 controller: userName,
                 hintText: "User Name",
                 obscureText: false),
-            const SizedBox(height: 10),
+            const SizedBox(height: 20),
             TextFd(
                 controller: email,
                 hintText: "Email Address",
                 obscureText: false),
-            const SizedBox(height: 10),
+            const SizedBox(height: 20),
             TextFd(
                 controller: passward, hintText: "Passward", obscureText: true),
-            const SizedBox(height: 10),
+            const SizedBox(height: 20),
             TextFd(
                 controller: passward, hintText: "Confirm Passward", obscureText: true),
             const SizedBox(height: 20),
-            const Button(name: "Register")
+            Button(name: "Register", onPressed: (){},)
           ],
         ),
       ),

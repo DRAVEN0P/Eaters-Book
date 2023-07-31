@@ -34,14 +34,14 @@ class LoginPage extends StatelessWidget {
                 hintText: "Email/Username",
                 obscureText: false,
               ),
-              const SizedBox(height: 10),
+              const SizedBox(height: 20),
               TextFd(
                 controller: passwardController,
                 hintText: "Passward",
                 obscureText: true,
               ),
               const SizedBox(height: 15),
-              const Button(name: "Sign In"),
+              Button(name: "Sign In",onPressed: (){},),
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
